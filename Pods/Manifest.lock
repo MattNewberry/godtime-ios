@@ -1,0 +1,27 @@
+PODS:
+  - AFHTTPRequestOperationLogger (0.10.0):
+    - AFNetworking (>= 0.9.0)
+  - AFIncrementalStore (0.4.0):
+    - AFNetworking (>= 0.9.0)
+    - InflectorKit
+    - TransformerKit
+  - AFNetworking (1.2.0)
+  - InflectorKit (0.0.1)
+  - TransformerKit (0.0.2)
+  - UrbanAirship-iOS-SDK (1.4.0)
+
+DEPENDENCIES:
+  - AFHTTPRequestOperationLogger
+  - AFIncrementalStore
+  - AFNetworking
+  - UrbanAirship-iOS-SDK
+
+SPEC CHECKSUMS:
+  AFHTTPRequestOperationLogger: 34ba125cb9eeb77a3b67aaaca105720ba3a0798c
+  AFIncrementalStore: 71e6815601f999933193ca97beb8a225ee3204e1
+  AFNetworking: 3cbae45f61a9f995cdbd56bd571223910d7f4e44
+  InflectorKit: 9dccab02f95541093995adac639342c9eb9e6c12
+  TransformerKit: 5985969aae30fc2b50b0d6c1aa3ec0daccc57c40
+  UrbanAirship-iOS-SDK: 169e60a879cc77a06eb3188c88004776c27464f0
+
+COCOAPODS: 0.17.0

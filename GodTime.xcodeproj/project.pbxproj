@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93ED84CA0B65487BAFC8A43E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D6BFF7A93942B798F12AC0 /* libPods.a */; };
+		C9AA1A4D171188CF0001FE70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A4C171188CF0001FE70 /* UIKit.framework */; };
+		C9AA1A4F171188CF0001FE70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A4E171188CF0001FE70 /* Foundation.framework */; };
+		C9AA1A51171188CF0001FE70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A50171188CF0001FE70 /* CoreGraphics.framework */; };
+		C9AA1A53171188CF0001FE70 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A52171188CF0001FE70 /* CoreData.framework */; };
+		C9AA1A56171188CF0001FE70 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A55171188CF0001FE70 /* Podfile */; };
+		C9AA1A5C171188CF0001FE70 /* GodTimeAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1A5B171188CF0001FE70 /* GodTimeAPIClient.m */; };
+		C9AA1A60171188CF0001FE70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A5E171188CF0001FE70 /* InfoPlist.strings */; };
+		C9AA1A62171188CF0001FE70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1A61171188CF0001FE70 /* main.m */; };
+		C9AA1A65171188CF0001FE70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1A64171188CF0001FE70 /* AppDelegate.m */; };
+		C9AA1A67171188CF0001FE70 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A66171188CF0001FE70 /* Default.png */; };
+		C9AA1A69171188CF0001FE70 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A68171188CF0001FE70 /* Default@2x.png */; };
+		C9AA1A6B171188CF0001FE70 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A6A171188CF0001FE70 /* Default-568h@2x.png */; };
+		C9AA1A6F171188CF0001FE70 /* GodTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1A6D171188CF0001FE70 /* GodTime.xcdatamodeld */; };
+		C9AA1A72171188D00001FE70 /* GodTimeIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1A71171188D00001FE70 /* GodTimeIncrementalStore.m */; };
+		C9AA1A7A171188D00001FE70 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A79171188D00001FE70 /* SenTestingKit.framework */; };
+		C9AA1A7B171188D00001FE70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A4C171188CF0001FE70 /* UIKit.framework */; };
+		C9AA1A7C171188D00001FE70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A4E171188CF0001FE70 /* Foundation.framework */; };
+		C9AA1A7D171188D00001FE70 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A52171188CF0001FE70 /* CoreData.framework */; };
+		C9AA1A85171188D00001FE70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A83171188D00001FE70 /* InfoPlist.strings */; };
+		C9AA1A88171188D00001FE70 /* GodTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1A87171188D00001FE70 /* GodTimeTests.m */; };
+		C9AA1A92171190B70001FE70 /* daily_verses.json in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A91171190B70001FE70 /* daily_verses.json */; };
+		C9AA1A94171191710001FE70 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AA1A93171191710001FE70 /* Storyboard.storyboard */; };
+		C9AA1AED171194680001FE70 /* PrayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AEC171194680001FE70 /* PrayersTableViewController.m */; };
+		C9AA1AF4171194980001FE70 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AF3171194980001FE70 /* RootViewController.m */; };
+		C9AA1AF7171194AE0001FE70 /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AF6171194AE0001FE70 /* UsersTableViewController.m */; };
+		C9AA1B021711955E0001FE70 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AF91711955E0001FE70 /* UIView+Additions.m */; };
+		C9AA1B031711955E0001FE70 /* NSManagedObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AFB1711955E0001FE70 /* NSManagedObject+Additions.m */; };
+		C9AA1B041711955E0001FE70 /* NSFetchedResultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AFD1711955E0001FE70 /* NSFetchedResultsModel.m */; };
+		C9AA1B051711955E0001FE70 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1AFF1711955E0001FE70 /* Common.m */; };
+		C9AA1B061711955E0001FE70 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AA1B011711955E0001FE70 /* UIColor+Additions.m */; };
+		C9E5EE4317119FB200E95E0F /* UsersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE4217119FB200E95E0F /* UsersModel.m */; };
+		C9E5EE461711A1B000E95E0F /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE451711A1B000E95E0F /* Reminder.m */; };
+		C9E5EE491711A1B000E95E0F /* Prayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE481711A1B000E95E0F /* Prayer.m */; };
+		C9E5EE4C1711A1B000E95E0F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE4B1711A1B000E95E0F /* User.m */; };
+		C9E5EE4F1711A54100E95E0F /* PrayersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE4E1711A54100E95E0F /* PrayersModel.m */; };
+		C9E5EE521711B18B00E95E0F /* NetworkedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE511711B18B00E95E0F /* NetworkedTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9AA1A7E171188D00001FE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9AA1A41171188CF0001FE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9AA1A48171188CF0001FE70;
+			remoteInfo = GodTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75062C7B04C242DF999B83A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B0D6BFF7A93942B798F12AC0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AA1A49171188CF0001FE70 /* GodTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AA1A4C171188CF0001FE70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9AA1A4E171188CF0001FE70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9AA1A50171188CF0001FE70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9AA1A52171188CF0001FE70 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9AA1A55171188CF0001FE70 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		C9AA1A58171188CF0001FE70 /* GodTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GodTime-Prefix.pch"; sourceTree = "<group>"; };
+		C9AA1A5A171188CF0001FE70 /* GodTimeAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GodTimeAPIClient.h; path = Classes/GodTimeAPIClient.h; sourceTree = "<group>"; };
+		C9AA1A5B171188CF0001FE70 /* GodTimeAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GodTimeAPIClient.m; path = Classes/GodTimeAPIClient.m; sourceTree = "<group>"; };
+		C9AA1A5D171188CF0001FE70 /* GodTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GodTime-Info.plist"; sourceTree = "<group>"; };
+		C9AA1A5F171188CF0001FE70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9AA1A61171188CF0001FE70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9AA1A63171188CF0001FE70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9AA1A64171188CF0001FE70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9AA1A66171188CF0001FE70 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C9AA1A68171188CF0001FE70 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C9AA1A6A171188CF0001FE70 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C9AA1A6E171188CF0001FE70 /* GodTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GodTime.xcdatamodel; sourceTree = "<group>"; };
+		C9AA1A70171188CF0001FE70 /* GodTimeIncrementalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GodTimeIncrementalStore.h; path = Classes/GodTimeIncrementalStore.h; sourceTree = "<group>"; };
+		C9AA1A71171188D00001FE70 /* GodTimeIncrementalStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GodTimeIncrementalStore.m; path = Classes/GodTimeIncrementalStore.m; sourceTree = "<group>"; };
+		C9AA1A78171188D00001FE70 /* GodTimeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodTimeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AA1A79171188D00001FE70 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9AA1A82171188D00001FE70 /* GodTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GodTimeTests-Info.plist"; sourceTree = "<group>"; };
+		C9AA1A84171188D00001FE70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9AA1A86171188D00001FE70 /* GodTimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GodTimeTests.h; sourceTree = "<group>"; };
+		C9AA1A87171188D00001FE70 /* GodTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GodTimeTests.m; sourceTree = "<group>"; };
+		C9AA1A91171190B70001FE70 /* daily_verses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = daily_verses.json; sourceTree = "<group>"; };
+		C9AA1A93171191710001FE70 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		C9AA1AEB171194680001FE70 /* PrayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrayersTableViewController.h; path = Classes/PrayersTableViewController.h; sourceTree = "<group>"; };
+		C9AA1AEC171194680001FE70 /* PrayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrayersTableViewController.m; path = Classes/PrayersTableViewController.m; sourceTree = "<group>"; };
+		C9AA1AF2171194970001FE70 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
+		C9AA1AF3171194980001FE70 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
+		C9AA1AF5171194AE0001FE70 /* UsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersTableViewController.h; path = Classes/UsersTableViewController.h; sourceTree = "<group>"; };
+		C9AA1AF6171194AE0001FE70 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersTableViewController.m; path = Classes/UsersTableViewController.m; sourceTree = "<group>"; };
+		C9AA1AF81711955E0001FE70 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		C9AA1AF91711955E0001FE70 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		C9AA1AFA1711955E0001FE70 /* NSManagedObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Additions.h"; sourceTree = "<group>"; };
+		C9AA1AFB1711955E0001FE70 /* NSManagedObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Additions.m"; sourceTree = "<group>"; };
+		C9AA1AFC1711955E0001FE70 /* NSFetchedResultsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFetchedResultsModel.h; sourceTree = "<group>"; };
+		C9AA1AFD1711955E0001FE70 /* NSFetchedResultsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFetchedResultsModel.m; sourceTree = "<group>"; };
+		C9AA1AFE1711955E0001FE70 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C9AA1AFF1711955E0001FE70 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		C9AA1B001711955E0001FE70 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		C9AA1B011711955E0001FE70 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		C9E5EE4117119FB200E95E0F /* UsersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersModel.h; sourceTree = "<group>"; };
+		C9E5EE4217119FB200E95E0F /* UsersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersModel.m; sourceTree = "<group>"; };
+		C9E5EE441711A1B000E95E0F /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reminder.h; path = Models/Reminder.h; sourceTree = "<group>"; };
+		C9E5EE451711A1B000E95E0F /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reminder.m; path = Models/Reminder.m; sourceTree = "<group>"; };
+		C9E5EE471711A1B000E95E0F /* Prayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prayer.h; path = Models/Prayer.h; sourceTree = "<group>"; };
+		C9E5EE481711A1B000E95E0F /* Prayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Prayer.m; path = Models/Prayer.m; sourceTree = "<group>"; };
+		C9E5EE4A1711A1B000E95E0F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Models/User.h; sourceTree = "<group>"; };
+		C9E5EE4B1711A1B000E95E0F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
+		C9E5EE4D1711A54100E95E0F /* PrayersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayersModel.h; sourceTree = "<group>"; };
+		C9E5EE4E1711A54100E95E0F /* PrayersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayersModel.m; sourceTree = "<group>"; };
+		C9E5EE501711B18B00E95E0F /* NetworkedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkedTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE511711B18B00E95E0F /* NetworkedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkedTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9AA1A46171188CF0001FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA1A4D171188CF0001FE70 /* UIKit.framework in Frameworks */,
+				C9AA1A4F171188CF0001FE70 /* Foundation.framework in Frameworks */,
+				C9AA1A51171188CF0001FE70 /* CoreGraphics.framework in Frameworks */,
+				C9AA1A53171188CF0001FE70 /* CoreData.framework in Frameworks */,
+				93ED84CA0B65487BAFC8A43E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AA1A74171188D00001FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA1A7A171188D00001FE70 /* SenTestingKit.framework in Frameworks */,
+				C9AA1A7B171188D00001FE70 /* UIKit.framework in Frameworks */,
+				C9AA1A7C171188D00001FE70 /* Foundation.framework in Frameworks */,
+				C9AA1A7D171188D00001FE70 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9AA1A40171188CF0001FE70 = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A54171188CF0001FE70 /* GodTime */,
+				C9AA1A80171188D00001FE70 /* GodTimeTests */,
+				C9AA1A4B171188CF0001FE70 /* Frameworks */,
+				C9AA1A4A171188CF0001FE70 /* Products */,
+				75062C7B04C242DF999B83A3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C9AA1A4A171188CF0001FE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A49171188CF0001FE70 /* GodTime.app */,
+				C9AA1A78171188D00001FE70 /* GodTimeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9AA1A4B171188CF0001FE70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A4C171188CF0001FE70 /* UIKit.framework */,
+				C9AA1A4E171188CF0001FE70 /* Foundation.framework */,
+				C9AA1A50171188CF0001FE70 /* CoreGraphics.framework */,
+				C9AA1A52171188CF0001FE70 /* CoreData.framework */,
+				C9AA1A79171188D00001FE70 /* SenTestingKit.framework */,
+				B0D6BFF7A93942B798F12AC0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9AA1A54171188CF0001FE70 /* GodTime */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A63171188CF0001FE70 /* AppDelegate.h */,
+				C9AA1A64171188CF0001FE70 /* AppDelegate.m */,
+				C9AA1AEE171194700001FE70 /* Controllers */,
+				C9E5EE4017119F7800E95E0F /* Models */,
+				C9AA1A93171191710001FE70 /* Storyboard.storyboard */,
+				C9AA1A59171188CF0001FE70 /* Networking */,
+				C9AA1A6C171188CF0001FE70 /* Models */,
+				C9AA1A57171188CF0001FE70 /* Supporting Files */,
+			);
+			path = GodTime;
+			sourceTree = "<group>";
+		};
+		C9AA1A57171188CF0001FE70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1B07171195640001FE70 /* Utilities */,
+				C9AA1A55171188CF0001FE70 /* Podfile */,
+				C9AA1A91171190B70001FE70 /* daily_verses.json */,
+				C9AA1A58171188CF0001FE70 /* GodTime-Prefix.pch */,
+				C9AA1A5D171188CF0001FE70 /* GodTime-Info.plist */,
+				C9AA1A5E171188CF0001FE70 /* InfoPlist.strings */,
+				C9AA1A61171188CF0001FE70 /* main.m */,
+				C9AA1A66171188CF0001FE70 /* Default.png */,
+				C9AA1A68171188CF0001FE70 /* Default@2x.png */,
+				C9AA1A6A171188CF0001FE70 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9AA1A59171188CF0001FE70 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A5A171188CF0001FE70 /* GodTimeAPIClient.h */,
+				C9AA1A5B171188CF0001FE70 /* GodTimeAPIClient.m */,
+				C9AA1A70171188CF0001FE70 /* GodTimeIncrementalStore.h */,
+				C9AA1A71171188D00001FE70 /* GodTimeIncrementalStore.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C9AA1A6C171188CF0001FE70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A6D171188CF0001FE70 /* GodTime.xcdatamodeld */,
+				C9E5EE4A1711A1B000E95E0F /* User.h */,
+				C9E5EE4B1711A1B000E95E0F /* User.m */,
+				C9E5EE471711A1B000E95E0F /* Prayer.h */,
+				C9E5EE481711A1B000E95E0F /* Prayer.m */,
+				C9E5EE441711A1B000E95E0F /* Reminder.h */,
+				C9E5EE451711A1B000E95E0F /* Reminder.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C9AA1A80171188D00001FE70 /* GodTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A86171188D00001FE70 /* GodTimeTests.h */,
+				C9AA1A87171188D00001FE70 /* GodTimeTests.m */,
+				C9AA1A81171188D00001FE70 /* Supporting Files */,
+			);
+			path = GodTimeTests;
+			sourceTree = "<group>";
+		};
+		C9AA1A81171188D00001FE70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1A82171188D00001FE70 /* GodTimeTests-Info.plist */,
+				C9AA1A83171188D00001FE70 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9AA1AEE171194700001FE70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1AF5171194AE0001FE70 /* UsersTableViewController.h */,
+				C9AA1AF6171194AE0001FE70 /* UsersTableViewController.m */,
+				C9AA1AEB171194680001FE70 /* PrayersTableViewController.h */,
+				C9AA1AEC171194680001FE70 /* PrayersTableViewController.m */,
+				C9AA1AF2171194970001FE70 /* RootViewController.h */,
+				C9AA1AF3171194980001FE70 /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C9AA1B07171195640001FE70 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C9E5EE501711B18B00E95E0F /* NetworkedTableViewController.h */,
+				C9E5EE511711B18B00E95E0F /* NetworkedTableViewController.m */,
+				C9AA1AF81711955E0001FE70 /* UIView+Additions.h */,
+				C9AA1AF91711955E0001FE70 /* UIView+Additions.m */,
+				C9AA1AFA1711955E0001FE70 /* NSManagedObject+Additions.h */,
+				C9AA1AFB1711955E0001FE70 /* NSManagedObject+Additions.m */,
+				C9AA1AFC1711955E0001FE70 /* NSFetchedResultsModel.h */,
+				C9AA1AFD1711955E0001FE70 /* NSFetchedResultsModel.m */,
+				C9AA1AFE1711955E0001FE70 /* Common.h */,
+				C9AA1AFF1711955E0001FE70 /* Common.m */,
+				C9AA1B001711955E0001FE70 /* UIColor+Additions.h */,
+				C9AA1B011711955E0001FE70 /* UIColor+Additions.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C9E5EE4017119F7800E95E0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9E5EE4117119FB200E95E0F /* UsersModel.h */,
+				C9E5EE4217119FB200E95E0F /* UsersModel.m */,
+				C9E5EE4D1711A54100E95E0F /* PrayersModel.h */,
+				C9E5EE4E1711A54100E95E0F /* PrayersModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9AA1A48171188CF0001FE70 /* GodTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AA1A8B171188D00001FE70 /* Build configuration list for PBXNativeTarget "GodTime" */;
+			buildPhases = (
+				C9AA1A45171188CF0001FE70 /* Sources */,
+				C9AA1A46171188CF0001FE70 /* Frameworks */,
+				C9AA1A47171188CF0001FE70 /* Resources */,
+				CD1A7A92ADD647618C21723E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodTime;
+			productName = GodTime;
+			productReference = C9AA1A49171188CF0001FE70 /* GodTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9AA1A77171188D00001FE70 /* GodTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AA1A8E171188D00001FE70 /* Build configuration list for PBXNativeTarget "GodTimeTests" */;
+			buildPhases = (
+				C9AA1A73171188D00001FE70 /* Sources */,
+				C9AA1A74171188D00001FE70 /* Frameworks */,
+				C9AA1A75171188D00001FE70 /* Resources */,
+				C9AA1A76171188D00001FE70 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9AA1A7F171188D00001FE70 /* PBXTargetDependency */,
+			);
+			name = GodTimeTests;
+			productName = GodTimeTests;
+			productReference = C9AA1A78171188D00001FE70 /* GodTimeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9AA1A41171188CF0001FE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Co.Lab;
+			};
+			buildConfigurationList = C9AA1A44171188CF0001FE70 /* Build configuration list for PBXProject "GodTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9AA1A40171188CF0001FE70;
+			productRefGroup = C9AA1A4A171188CF0001FE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9AA1A48171188CF0001FE70 /* GodTime */,
+				C9AA1A77171188D00001FE70 /* GodTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9AA1A47171188CF0001FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA1A56171188CF0001FE70 /* Podfile in Resources */,
+				C9AA1A60171188CF0001FE70 /* InfoPlist.strings in Resources */,
+				C9AA1A67171188CF0001FE70 /* Default.png in Resources */,
+				C9AA1A69171188CF0001FE70 /* Default@2x.png in Resources */,
+				C9AA1A6B171188CF0001FE70 /* Default-568h@2x.png in Resources */,
+				C9AA1A92171190B70001FE70 /* daily_verses.json in Resources */,
+				C9AA1A94171191710001FE70 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AA1A75171188D00001FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA1A85171188D00001FE70 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9AA1A76171188D00001FE70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		CD1A7A92ADD647618C21723E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9AA1A45171188CF0001FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA1A5C171188CF0001FE70 /* GodTimeAPIClient.m in Sources */,
+				C9AA1A62171188CF0001FE70 /* main.m in Sources */,
+				C9AA1A65171188CF0001FE70 /* AppDelegate.m in Sources */,
+				C9AA1A6F171188CF0001FE70 /* GodTime.xcdatamodeld in Sources */,
+				C9AA1A72171188D00001FE70 /* GodTimeIncrementalStore.m in Sources */,
+				C9AA1AED171194680001FE70 /* PrayersTableViewController.m in Sources */,
+				C9AA1AF4171194980001FE70 /* RootViewController.m in Sources */,
+				C9AA1AF7171194AE0001FE70 /* UsersTableViewController.m in Sources */,
+				C9AA1B021711955E0001FE70 /* UIView+Additions.m in Sources */,
+				C9AA1B031711955E0001FE70 /* NSManagedObject+Additions.m in Sources */,
+				C9AA1B041711955E0001FE70 /* NSFetchedResultsModel.m in Sources */,
+				C9AA1B051711955E0001FE70 /* Common.m in Sources */,
+				C9AA1B061711955E0001FE70 /* UIColor+Additions.m in Sources */,
+				C9E5EE4317119FB200E95E0F /* UsersModel.m in Sources */,
+				C9E5EE461711A1B000E95E0F /* Reminder.m in Sources */,
+				C9E5EE491711A1B000E95E0F /* Prayer.m in Sources */,
+				C9E5EE4C1711A1B000E95E0F /* User.m in Sources */,
+				C9E5EE4F1711A54100E95E0F /* PrayersModel.m in Sources */,
+				C9E5EE521711B18B00E95E0F /* NetworkedTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AA1A73171188D00001FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA1A88171188D00001FE70 /* GodTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9AA1A7F171188D00001FE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9AA1A48171188CF0001FE70 /* GodTime */;
+			targetProxy = C9AA1A7E171188D00001FE70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9AA1A5E171188CF0001FE70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AA1A5F171188CF0001FE70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9AA1A83171188D00001FE70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9AA1A84171188D00001FE70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9AA1A89171188D00001FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9AA1A8A171188D00001FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9AA1A8C171188D00001FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75062C7B04C242DF999B83A3 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GodTime/GodTime-Prefix.pch";
+				INFOPLIST_FILE = "GodTime/GodTime-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lsqlite3.0",
+					"-lz",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					Foundation,
+					"-framework",
+					MapKit,
+					"-framework",
+					MessageUI,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9AA1A8D171188D00001FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75062C7B04C242DF999B83A3 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GodTime/GodTime-Prefix.pch";
+				INFOPLIST_FILE = "GodTime/GodTime-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-lsqlite3.0",
+					"-lz",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					Foundation,
+					"-framework",
+					MapKit,
+					"-framework",
+					MessageUI,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9AA1A8F171188D00001FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GodTime.app/GodTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GodTime/GodTime-Prefix.pch";
+				INFOPLIST_FILE = "GodTimeTests/GodTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9AA1A90171188D00001FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GodTime.app/GodTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GodTime/GodTime-Prefix.pch";
+				INFOPLIST_FILE = "GodTimeTests/GodTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9AA1A44171188CF0001FE70 /* Build configuration list for PBXProject "GodTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AA1A89171188D00001FE70 /* Debug */,
+				C9AA1A8A171188D00001FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AA1A8B171188D00001FE70 /* Build configuration list for PBXNativeTarget "GodTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AA1A8C171188D00001FE70 /* Debug */,
+				C9AA1A8D171188D00001FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AA1A8E171188D00001FE70 /* Build configuration list for PBXNativeTarget "GodTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AA1A8F171188D00001FE70 /* Debug */,
+				C9AA1A90171188D00001FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9AA1A6D171188CF0001FE70 /* GodTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9AA1A6E171188CF0001FE70 /* GodTime.xcdatamodel */,
+			);
+			currentVersion = C9AA1A6E171188CF0001FE70 /* GodTime.xcdatamodel */;
+			path = GodTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9AA1A41171188CF0001FE70 /* Project object */;
+}
