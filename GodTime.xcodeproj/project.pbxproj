@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		93ED84CA0B65487BAFC8A43E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D6BFF7A93942B798F12AC0 /* libPods.a */; };
+		C943621517120CA60035AC0E /* users.png in Resources */ = {isa = PBXBuildFile; fileRef = C943621417120CA60035AC0E /* users.png */; };
+		C943621817120D8B0035AC0E /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C943621617120D8B0035AC0E /* home.png */; };
+		C943621917120D8B0035AC0E /* prayers.png in Resources */ = {isa = PBXBuildFile; fileRef = C943621717120D8B0035AC0E /* prayers.png */; };
 		C9AA1A4D171188CF0001FE70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A4C171188CF0001FE70 /* UIKit.framework */; };
 		C9AA1A4F171188CF0001FE70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A4E171188CF0001FE70 /* Foundation.framework */; };
 		C9AA1A51171188CF0001FE70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA1A50171188CF0001FE70 /* CoreGraphics.framework */; };
@@ -43,7 +46,13 @@
 		C9E5EE491711A1B000E95E0F /* Prayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE481711A1B000E95E0F /* Prayer.m */; };
 		C9E5EE4C1711A1B000E95E0F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE4B1711A1B000E95E0F /* User.m */; };
 		C9E5EE4F1711A54100E95E0F /* PrayersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE4E1711A54100E95E0F /* PrayersModel.m */; };
-		C9E5EE521711B18B00E95E0F /* NetworkedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE511711B18B00E95E0F /* NetworkedTableViewController.m */; };
+		C9E5EE591711EA4F00E95E0F /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9E5EE581711EA4F00E95E0F /* logo.jpg */; };
+		C9E5EE631711EB9300E95E0F /* NetworkedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE5E1711EB9300E95E0F /* NetworkedTableViewController.m */; };
+		C9E5EE641711EB9300E95E0F /* PrayersDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE601711EB9300E95E0F /* PrayersDetailTableViewController.m */; };
+		C9E5EE651711EB9300E95E0F /* UsersDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE621711EB9300E95E0F /* UsersDetailTableViewController.m */; };
+		C9E5EE681711F70C00E95E0F /* PrayersAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE671711F70C00E95E0F /* PrayersAddTableViewController.m */; };
+		C9E5EE6B171201C300E95E0F /* PrayersUserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE6A171201C300E95E0F /* PrayersUserTableViewController.m */; };
+		C9E5EE6E1712092200E95E0F /* UsersAddTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5EE6D1712092200E95E0F /* UsersAddTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +68,9 @@
 /* Begin PBXFileReference section */
 		75062C7B04C242DF999B83A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		B0D6BFF7A93942B798F12AC0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C943621417120CA60035AC0E /* users.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = users.png; sourceTree = "<group>"; };
+		C943621617120D8B0035AC0E /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C943621717120D8B0035AC0E /* prayers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prayers.png; sourceTree = "<group>"; };
 		C9AA1A49171188CF0001FE70 /* GodTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AA1A4C171188CF0001FE70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9AA1A4E171188CF0001FE70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,8 +125,19 @@
 		C9E5EE4B1711A1B000E95E0F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
 		C9E5EE4D1711A54100E95E0F /* PrayersModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayersModel.h; sourceTree = "<group>"; };
 		C9E5EE4E1711A54100E95E0F /* PrayersModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayersModel.m; sourceTree = "<group>"; };
-		C9E5EE501711B18B00E95E0F /* NetworkedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkedTableViewController.h; sourceTree = "<group>"; };
-		C9E5EE511711B18B00E95E0F /* NetworkedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkedTableViewController.m; sourceTree = "<group>"; };
+		C9E5EE581711EA4F00E95E0F /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		C9E5EE5D1711EB9300E95E0F /* NetworkedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkedTableViewController.h; path = Classes/NetworkedTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE5E1711EB9300E95E0F /* NetworkedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkedTableViewController.m; path = Classes/NetworkedTableViewController.m; sourceTree = "<group>"; };
+		C9E5EE5F1711EB9300E95E0F /* PrayersDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrayersDetailTableViewController.h; path = Classes/PrayersDetailTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE601711EB9300E95E0F /* PrayersDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrayersDetailTableViewController.m; path = Classes/PrayersDetailTableViewController.m; sourceTree = "<group>"; };
+		C9E5EE611711EB9300E95E0F /* UsersDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersDetailTableViewController.h; path = Classes/UsersDetailTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE621711EB9300E95E0F /* UsersDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersDetailTableViewController.m; path = Classes/UsersDetailTableViewController.m; sourceTree = "<group>"; };
+		C9E5EE661711F70C00E95E0F /* PrayersAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayersAddTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE671711F70C00E95E0F /* PrayersAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayersAddTableViewController.m; sourceTree = "<group>"; };
+		C9E5EE69171201C300E95E0F /* PrayersUserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayersUserTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE6A171201C300E95E0F /* PrayersUserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayersUserTableViewController.m; sourceTree = "<group>"; };
+		C9E5EE6C1712092200E95E0F /* UsersAddTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersAddTableViewController.h; sourceTree = "<group>"; };
+		C9E5EE6D1712092200E95E0F /* UsersAddTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersAddTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +218,10 @@
 		C9AA1A57171188CF0001FE70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C943621617120D8B0035AC0E /* home.png */,
+				C943621717120D8B0035AC0E /* prayers.png */,
+				C943621417120CA60035AC0E /* users.png */,
+				C9E5EE581711EA4F00E95E0F /* logo.jpg */,
 				C9AA1B07171195640001FE70 /* Utilities */,
 				C9AA1A55171188CF0001FE70 /* Podfile */,
 				C9AA1A91171190B70001FE70 /* daily_verses.json */,
@@ -256,10 +283,8 @@
 		C9AA1AEE171194700001FE70 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C9AA1AF5171194AE0001FE70 /* UsersTableViewController.h */,
-				C9AA1AF6171194AE0001FE70 /* UsersTableViewController.m */,
-				C9AA1AEB171194680001FE70 /* PrayersTableViewController.h */,
-				C9AA1AEC171194680001FE70 /* PrayersTableViewController.m */,
+				C9E5EE531711BD6200E95E0F /* Users */,
+				C9E5EE541711BD6800E95E0F /* Prayers */,
 				C9AA1AF2171194970001FE70 /* RootViewController.h */,
 				C9AA1AF3171194980001FE70 /* RootViewController.m */,
 			);
@@ -269,8 +294,8 @@
 		C9AA1B07171195640001FE70 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				C9E5EE501711B18B00E95E0F /* NetworkedTableViewController.h */,
-				C9E5EE511711B18B00E95E0F /* NetworkedTableViewController.m */,
+				C9E5EE5D1711EB9300E95E0F /* NetworkedTableViewController.h */,
+				C9E5EE5E1711EB9300E95E0F /* NetworkedTableViewController.m */,
 				C9AA1AF81711955E0001FE70 /* UIView+Additions.h */,
 				C9AA1AF91711955E0001FE70 /* UIView+Additions.m */,
 				C9AA1AFA1711955E0001FE70 /* NSManagedObject+Additions.h */,
@@ -294,6 +319,34 @@
 				C9E5EE4E1711A54100E95E0F /* PrayersModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C9E5EE531711BD6200E95E0F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				C9E5EE611711EB9300E95E0F /* UsersDetailTableViewController.h */,
+				C9E5EE621711EB9300E95E0F /* UsersDetailTableViewController.m */,
+				C9AA1AF5171194AE0001FE70 /* UsersTableViewController.h */,
+				C9AA1AF6171194AE0001FE70 /* UsersTableViewController.m */,
+				C9E5EE6C1712092200E95E0F /* UsersAddTableViewController.h */,
+				C9E5EE6D1712092200E95E0F /* UsersAddTableViewController.m */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		C9E5EE541711BD6800E95E0F /* Prayers */ = {
+			isa = PBXGroup;
+			children = (
+				C9AA1AEB171194680001FE70 /* PrayersTableViewController.h */,
+				C9AA1AEC171194680001FE70 /* PrayersTableViewController.m */,
+				C9E5EE5F1711EB9300E95E0F /* PrayersDetailTableViewController.h */,
+				C9E5EE601711EB9300E95E0F /* PrayersDetailTableViewController.m */,
+				C9E5EE661711F70C00E95E0F /* PrayersAddTableViewController.h */,
+				C9E5EE671711F70C00E95E0F /* PrayersAddTableViewController.m */,
+				C9E5EE69171201C300E95E0F /* PrayersUserTableViewController.h */,
+				C9E5EE6A171201C300E95E0F /* PrayersUserTableViewController.m */,
+			);
+			name = Prayers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,6 +428,10 @@
 				C9AA1A6B171188CF0001FE70 /* Default-568h@2x.png in Resources */,
 				C9AA1A92171190B70001FE70 /* daily_verses.json in Resources */,
 				C9AA1A94171191710001FE70 /* Storyboard.storyboard in Resources */,
+				C9E5EE591711EA4F00E95E0F /* logo.jpg in Resources */,
+				C943621517120CA60035AC0E /* users.png in Resources */,
+				C943621817120D8B0035AC0E /* home.png in Resources */,
+				C943621917120D8B0035AC0E /* prayers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +498,12 @@
 				C9E5EE491711A1B000E95E0F /* Prayer.m in Sources */,
 				C9E5EE4C1711A1B000E95E0F /* User.m in Sources */,
 				C9E5EE4F1711A54100E95E0F /* PrayersModel.m in Sources */,
-				C9E5EE521711B18B00E95E0F /* NetworkedTableViewController.m in Sources */,
+				C9E5EE631711EB9300E95E0F /* NetworkedTableViewController.m in Sources */,
+				C9E5EE641711EB9300E95E0F /* PrayersDetailTableViewController.m in Sources */,
+				C9E5EE651711EB9300E95E0F /* UsersDetailTableViewController.m in Sources */,
+				C9E5EE681711F70C00E95E0F /* PrayersAddTableViewController.m in Sources */,
+				C9E5EE6B171201C300E95E0F /* PrayersUserTableViewController.m in Sources */,
+				C9E5EE6E1712092200E95E0F /* UsersAddTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

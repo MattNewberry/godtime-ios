@@ -11,4 +11,9 @@
 
 @interface UsersTableViewController : NetworkedTableViewController
 
+- (IBAction)cancel:(UIStoryboardSegue *)segue;
+- (IBAction)save:(UIStoryboardSegue *)segue;
+
+- (IBAction)enterEditMode:(id)sender;
+
 @end

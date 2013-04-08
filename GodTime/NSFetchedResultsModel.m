@@ -92,9 +92,13 @@
 	if ([self shouldFetchObjectForIndexPath:indexPath])
 		object = [self objectAtIndexPath:indexPath];
 	
-	Class cellClass = [self cellClassForObject:object];
-	
-	NSString *CellIdentifier = NSStringFromClass(cellClass);
+    Class cellClass = [self cellClassForObject:object];
+    
+    NSString *CellIdentifier = self.cellIdentifier;
+    
+    if(!CellIdentifier) {
+        CellIdentifier = NSStringFromClass(cellClass);
+    }
 	
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil)
@@ -224,6 +228,11 @@
 - (void)configureCell:(UITableViewCell *) cell withObject:(id) object atIndexPath:(NSIndexPath *) indexPath
 {
 	
+}
+
+- (NSString *)cellIdentifier
+{
+    return nil;
 }
 
 - (Class)cellClassForObject:(id) object

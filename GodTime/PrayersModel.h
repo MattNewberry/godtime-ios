@@ -8,6 +8,10 @@
 
 #import "NSFetchedResultsModel.h"
 
+@class User;
 @interface PrayersModel : NSFetchedResultsModel
+
+// (optional) User to filter by
+@property (nonatomic, weak) User *user;
 
 @end

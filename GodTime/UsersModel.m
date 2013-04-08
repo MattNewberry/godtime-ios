@@ -8,6 +8,7 @@
 
 #import "UsersModel.h"
 #import "User.h"
+#import "NSManagedObject+Additions.h"
 
 @implementation UsersModel
 
@@ -17,6 +18,18 @@
     request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"first_name" ascending:YES]];
     
     return request;
+}
+
+- (NSString *)cellIdentifier
+{
+    return @"UsersCell";
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    User *user = [self objectAtIndexPath:indexPath];
+    [user remove];
+    [user save];
 }
 
 - (void)configureCell:(UITableViewCell *)cell withObject:(id)object atIndexPath:(NSIndexPath *)indexPath

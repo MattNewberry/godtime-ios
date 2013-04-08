@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class NSFetchedResultsModel;
-@interface NetworkedTableViewController : UITableViewController
+@interface NetworkedTableViewController : UITableViewController <UITableViewDelegate>
 
 @property (nonatomic, strong) NSFetchedResultsModel *model;
 @property (nonatomic, strong) UIRefreshControl *refreshCtl;

@@ -7,6 +7,7 @@ PODS:
     - TransformerKit
   - AFNetworking (1.2.0)
   - InflectorKit (0.0.1)
+  - LKbadgeView (1.1.0)
   - TransformerKit (0.0.2)
   - UrbanAirship-iOS-SDK (1.4.0)
 
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - AFHTTPRequestOperationLogger
   - AFIncrementalStore
   - AFNetworking
+  - LKbadgeView (~> 1.1.0)
   - UrbanAirship-iOS-SDK
 
 SPEC CHECKSUMS:
@@ -21,6 +23,7 @@ SPEC CHECKSUMS:
   AFIncrementalStore: 71e6815601f999933193ca97beb8a225ee3204e1
   AFNetworking: 3cbae45f61a9f995cdbd56bd571223910d7f4e44
   InflectorKit: 9dccab02f95541093995adac639342c9eb9e6c12
+  LKbadgeView: 484f871824ac2e132878bd866449d221640590dc
   TransformerKit: 5985969aae30fc2b50b0d6c1aa3ec0daccc57c40
   UrbanAirship-iOS-SDK: 169e60a879cc77a06eb3188c88004776c27464f0
 

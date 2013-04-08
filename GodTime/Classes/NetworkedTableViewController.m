@@ -17,22 +17,32 @@
 
 @implementation NetworkedTableViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    [self setupModel];
+}
+
+- (void)setupModel
+{
     self.model = [[[self modelClass] alloc] initWithSectionNameKeyPath:nil andCacheName:nil];
     self.model.tableView = self.tableView;
     
     self.tableView.dataSource = self.model;
-    self.tableView.delegate = self.model;
-
+    self.tableView.delegate = self;
+    
     self.refreshCtl = [[UIRefreshControl alloc] init];
     [_refreshCtl addTarget:_model action:@selector(reset) forControlEvents:UIControlEventValueChanged];
     
-    self.refreshControl = _refreshCtl;
+    //self.refreshControl = _refreshCtl;
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didFinishLoading) name:AFIncrementalStoreContextDidFetchRemoteValues object:nil];
+    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didFinishLoading) name:AFIncrementalStoreContextDidFetchRemoteValues object:nil];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (Class)modelClass

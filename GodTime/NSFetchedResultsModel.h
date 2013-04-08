@@ -17,6 +17,7 @@
 @property (nonatomic, readonly) NSArray *fetchedObjects;
 @property (nonatomic, strong) UISearchDisplayController *searchDisplayController;
 @property (nonatomic, assign) BOOL isSearching;
+@property (nonatomic, strong) NSString *cellIdentifier;
 @property (nonatomic, assign) BOOL disableAnimations;
 
 - (void)reset;
